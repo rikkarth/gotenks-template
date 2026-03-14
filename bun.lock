@@ -3,10 +3,10 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "gotenks-tempalte",
+      "name": "gotenks-template",
     },
     "apps/api": {
-      "name": "@gotenks-tempalte/api",
+      "name": "@gotenks-template/api",
       "dependencies": {
         "@elysiajs/cors": "latest",
         "elysia": "latest",
@@ -17,7 +17,7 @@
       },
     },
     "apps/web": {
-      "name": "@gotenks-tempalte/web",
+      "name": "@gotenks-template/web",
       "dependencies": {
         "react": "latest",
         "react-dom": "latest",
@@ -32,9 +32,9 @@
     },
   },
   "packages": {
-    "@gotenks-tempalte/api": ["@gotenks-tempalte/api@workspace:apps/api"],
+    "@gotenks-template/api": ["@gotenks-template/api@workspace:apps/api"],
 
-    "@gotenks-tempalte/web": ["@gotenks-tempalte/web@workspace:apps/web"],
+    "@gotenks-template/web": ["@gotenks-template/web@workspace:apps/web"],
 
     "@borewit/text-codec": ["@borewit/text-codec@0.2.2", "", {}, "sha512-DDaRehssg1aNrH4+2hnj1B7vnUGEjU6OIlyRdkMd0aUdIUvKXrJfXsy8LVtXAy7DRvYVluWbMspsRhz2lcW0mQ=="],
 

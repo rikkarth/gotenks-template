@@ -1,5 +1,5 @@
 {
-  "name": "@gotenks-tempalte/api",
+  "name": "@gotenks-template/api",
   "private": true,
   "type": "module",
   "exports": {

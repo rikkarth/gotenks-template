@@ -7,6 +7,6 @@ export default defineConfig({
     port: 3000,
   },
   html: {
-    title: 'Gotenks Tempalte',
+    title: 'Gotenks Template',
   },
 });

@@ -1,4 +1,4 @@
-# Gotenks Tempalte
+# Gotenks Template
 
 A Bun-first baseline for AI apps with:
 
@@ -15,7 +15,7 @@ This repo is meant to be cloned and adapted into a new application. The layout f
 
    ```bash
    git clone <your-repo-url>
-   cd gotenks-tempalte
+   cd gotenks-template
    ```
 
 2. Install Bun if it is not already available:
