@@ -1,0 +1,120 @@
+:root {
+  color-scheme: light;
+  font-family: "Sora", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(236, 188, 110, 0.38), transparent 28%),
+    linear-gradient(160deg, #f4efe6 0%, #f2f6fb 48%, #dfe9f4 100%);
+  color: #17212b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.page-shell {
+  width: min(1120px, calc(100vw - 2rem));
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.hero {
+  margin-bottom: 2rem;
+  padding: 2.5rem;
+  border-radius: 28px;
+  background: rgba(23, 33, 43, 0.88);
+  color: #f7f4ef;
+  box-shadow: 0 24px 70px rgba(23, 33, 43, 0.2);
+}
+
+.hero h1,
+.panel h2 {
+  margin: 0;
+  line-height: 1.05;
+}
+
+.hero h1 {
+  max-width: 12ch;
+  font-size: clamp(2.6rem, 7vw, 5rem);
+  letter-spacing: -0.05em;
+}
+
+.lede {
+  max-width: 62ch;
+  margin: 1rem 0 0;
+  color: rgba(247, 244, 239, 0.82);
+  font-size: 1.05rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #bb7a22;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.panel {
+  padding: 1.5rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 20px 50px rgba(67, 86, 100, 0.12);
+}
+
+.panel-accent {
+  background:
+    linear-gradient(135deg, rgba(228, 184, 120, 0.95), rgba(247, 240, 228, 0.82)),
+    rgba(255, 255, 255, 0.65);
+}
+
+.feature-list {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+  line-height: 1.7;
+}
+
+.status,
+.supporting-copy {
+  margin: 0.8rem 0 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-shell {
+    width: min(100vw - 1rem, 1120px);
+    padding-top: 1rem;
+  }
+
+  .hero,
+  .panel {
+    padding: 1.2rem;
+  }
+}

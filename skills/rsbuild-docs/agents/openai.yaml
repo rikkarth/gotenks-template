@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rsbuild Docs"
+  short_description: "Official Rsbuild reference skill"
+  default_prompt: "Use $rsbuild-docs to solve this Rsbuild task using the bundled llms-full reference."
