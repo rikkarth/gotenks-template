@@ -10,7 +10,7 @@ const healthResponse = t.Object({
 });
 
 export const app = new Elysia({
-  name: '@ai-app-template/api',
+  name: '@gotenks-tempalte/api',
 })
   .use(
     cors({

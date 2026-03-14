@@ -7,6 +7,6 @@ export default defineConfig({
     port: 3000,
   },
   html: {
-    title: 'AI App Template',
+    title: 'Gotenks Tempalte',
   },
 });
