@@ -8,6 +8,7 @@
 
 ### Agent-Authored Files
 When creating files intended for agent consumption (plans, rules, specs, prompts), use **Markdown with YAML frontmatter**. This combination is the most token-efficient structured format and is backed by empirical benchmarks. Avoid JSON, XML, or TOML for these documents — they cost significantly more tokens and can degrade reasoning.
+When creating or updating plan documents, follow the project planning conventions in [docs/planning.md](docs/planning.md).
 
 ## Commit Convention
 - Use conventional commits with scope: `feat(scope):`, `fix(scope):`, `refactor(scope):`, `chore:`, `docs:`
